@@ -1,0 +1,35 @@
+*{ 
+    font-family: 'Pixellari', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Pixellari';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Pixellari'), url('https://fonts.cdnfonts.com/s/58421/Pixellari.woff') format('woff');
+}
+body{
+    background-image: url("img/tlo2.jpg");
+    image-rendering: pixelated;
+    background-size: auto 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    min-width: 100vw;
+    background-position: center 0;
+    background-repeat: repeat;
+}
+.container {
+    position: absolute;
+    top: 25vh;
+    margin-left: 50vw;
+  }
+.logo{ 
+    position: absolute;
+    transform: translateX(-50%);
+    width: 30vh; 
+    z-index: 0; 
+}
+.mint{
+    
+}
